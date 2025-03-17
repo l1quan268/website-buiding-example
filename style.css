@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 15%;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  background: white;
+}
+.header {
+  text-align: center;
+}
+.header h1 {
+  color: #1a5395;
+  font-size: 24px;
+  font-weight: bold;
+}
+.header p {
+  font-size: 14px;
+  color: #555;
+}
+.menu {
+  display: flex;
+  background-color: #1a5395;
+  list-style: none;
+}
+.menu li {
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  border-right: 2px solid white;
+}
+.menu li:nth-child(3) {
+  background: #b9ced9;
+  color: #1a5395;
+  border: 2px solid #1a5395;
+}
+.menu li:nth-child(1) {
+  border-left: 0.5px solid white;
+}
+.content {
+  display: flex;
+  margin-top: 20px;
+}
+.left {
+  width: 65%;
+  line-height: 3;
+}
+.HV1 {
+  line-height: 1.5;
+  margin-bottom: 10%;
+}
+.HV2 {
+  line-height: 1.5;
+  margin-bottom: 10%;
+}
+.right {
+  width: 30%;
+  background: #e8f0fa;
+  padding: 20px;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+h2 {
+  color: #1a5395;
+  font-size: 18px;
+  font-weight: bold;
+}
+.right p {
+  font-size: 14px;
+  line-height: 3;
+}
+.intro {
+  padding: 15px;
+  border: 0.5px solid #c7dcf4;
+  border-radius: 5px;
+}
+.table {
+  width: 100%;
+  margin-top: 10px;
+}
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.table th {
+  background: #1a5395;
+  color: white;
+}
+.section-title {
+  color: #1a5395;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.job-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.job-table th,
+.job-table td {
+  border: 1px solid #ddd;
+  padding: 0 10px;
+  text-align: left;
+}
+.job-table th {
+  background-color: #0b4c9c;
+  color: white;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.job-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.footer {
+  background-color: #0a4d8c;
+  color: white;
+  text-align: left;
+  padding: 15px;
+  font-size: 14px;
+  margin-top: 1.5%;
+}
+.footer-title {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-left: 3%;
+}
+.footer-text {
+  margin-left: 3%;
+}
+.picture {
+  text-align: center;
+  margin-top: 20px;
+}
+.portrait {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.contactme {
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  line-height: 1.5;
+}
